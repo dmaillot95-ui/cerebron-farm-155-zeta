@@ -1,0 +1,30 @@
+{
+  "schema": "ZETA_BENCHMARK_V1",
+  "status": "FROZEN_TEMPLATE_NO_RESULTS",
+  "role_id": "COMPLEXITY_RESOURCE_MINIMIZER",
+  "domains": [
+    "compute_efficiency",
+    "memory_efficiency",
+    "step_reduction",
+    "cost_proxy",
+    "complexity_reduction",
+    "capability_preservation"
+  ],
+  "m6_rule": "M6_NEVER_IN_TRAIN",
+  "modes": [
+    "BASE_MODEL_ALONE",
+    "ZETA_PRETRAIN_SCAFFOLD",
+    "ZETA_TRAINED",
+    "ZETA_PLUS_MINIMAL_COALITION"
+  ],
+  "metrics": [
+    "role_accuracy",
+    "critical_error_rate",
+    "calibration",
+    "transfer",
+    "regression",
+    "latency",
+    "provenance_completeness"
+  ],
+  "result_status": "NO_EXECUTED_BASELINE_YET"
+}
